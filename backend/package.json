@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon server.js",
+    "build": "echo 'build script executed'",
     "start": "node server.js",
     "heroku-postbuild": "YARN_CONFIG_PRODUCTION=false yarn install --prefix frontend && yarn run build --prefix frontend"
   },
